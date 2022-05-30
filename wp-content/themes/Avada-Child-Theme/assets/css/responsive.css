@@ -116,7 +116,7 @@
 
 @media screen and (max-width:1023px){
     #main{
-        margin-top:0!important;
+        margin-top:-150px!important;
     }
     .homePageBanner{
         height:80vh !important
@@ -127,7 +127,7 @@
     }
 
     .fusion-header-wrapper .navArea .fusion-flyout-menu-icons .fusion-toggle-icon-line{
-        background:var(--white)!important;
+        background:#2e3646!important;
         height:1px;
     }
     .fusion-body .fusion-header-wrapper .fusion-flyout-mobile-menu{
@@ -429,6 +429,23 @@
     body.has-sidebar #main #content{
         margin-bottom:50px;
     }
+    #mobile-menu-menu-2 .fusion-mobile-nav-item{
+        position: relative !important;
+        font-size: 60px !important;}
+
+    }
+    .fusion-mobile-nav-holder > ul > li.fusion-mobile-nav-item > a{
+        font-size: 40px !important;
+        letter-spacing: var(--mobile_menu_typography-letter-spacing) !important;
+        font-weight: 700 !important;
+        color: #fff !important;
+        text-transform: uppercase !important;
+    }
+    /*.secondSection .fusion-builder-row .fusion_builder_column{
+        width: 100% !important;
+    }*/
+
+}
 
 
 @media screen and (min-width:769px) and (max-width:928px){
@@ -500,7 +517,7 @@
         font-size:25px;
         font-family:'Roboto';
         font-weight:bold;
-        color:var(--white)
+        color:var(--white);
     }
     .fusion-header-wrapper .fusion-header-v1.fusion-flyout-menu-active .fusion-flyout-mobile-menu {
         z-index: 999;
@@ -865,6 +882,17 @@
     #respond{
         margin-top:0!important;
     }
+    #mobile-menu-menu-2 .fusion-mobile-nav-item{
+        font-size: 45px !important;
+    }
+    .fusion-mobile-nav-holder > ul > li.fusion-mobile-nav-item > a{
+        font-size: 30px !important;
+    }
+    .secondSection h2 {
+        font-size: 28px !important;
+    }
+    .secondSection .leftSec{padding-top: 30px;}
+    .secondSection{padding-top: 30px!important; padding-bottom: 30px!important;}
 }
       
 
