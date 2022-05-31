@@ -67,7 +67,7 @@ color: #6c6c6c!important;
 .herobanner.bottom .fusion_builder_column {margin-bottom: 0px!important;}
 /*==================================================================================27 MAY 2022==================================================================*/
 
-
+ .mobile{display: none!important;}
 .btn,
 .fusion-button.btn{
     border:none;

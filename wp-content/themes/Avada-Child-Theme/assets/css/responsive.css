@@ -893,6 +893,19 @@
     }
     .secondSection .leftSec{padding-top: 30px;}
     .secondSection{padding-top: 30px!important; padding-bottom: 30px!important;}
+
+
+
+
+    .fusion-header-wrapper .siteLogo .fusion-logo img{
+        width: 112px!important;
+        margin-left: 20px!important;
+    }
+    #main {
+        margin-top: -170px !important;
+    }
+    .mobile{display: block!important;}
+    .desktop{display: none!important;}
 }
       
 
